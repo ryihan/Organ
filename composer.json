@@ -26,10 +26,13 @@
         "preferred-install": "dist",
         "sort-packages": true
     },
+    "extra": {
         "laravel": {
+        }
     },
     "autoload": {
             "App\\": "app/",
+            "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
         }
     },
