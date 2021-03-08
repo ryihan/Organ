@@ -70,3 +70,24 @@
                 "url": "https://github.com/brick/math.git",
                 "reference": "dff976c2f3487d42c1db75a3b180e2b9f0e72ce0"
             },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/brick/math/zipball/dff976c2f3487d42c1db75a3b180e2b9f0e72ce0",
+                "reference": "dff976c2f3487d42c1db75a3b180e2b9f0e72ce0",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": "^7.1 || ^8.0"
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "^2.2",
+                "phpunit/phpunit": "^7.5.15 || ^8.5 || ^9.0",
+                "vimeo/psalm": "4.3.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Brick\\Math\\": "src/"
+                }
+            },
