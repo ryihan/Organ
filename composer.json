@@ -15,12 +15,16 @@
         "laravel/framework": "^8.12",
         "laravel/tinker": "^2.5"
     },
+    "require-dev": {
         "facade/ignition": "^2.5",
+        "fakerphp/faker": "^1.9.1",
         "mockery/mockery": "^1.4.2",
         "nunomaduro/collision": "^5.0",
     },
+    "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
+        "sort-packages": true
     },
         "laravel": {
     },
