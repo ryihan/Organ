@@ -15,6 +15,11 @@
         "laravel/framework": "^8.12",
         "laravel/tinker": "^2.5"
     },
+        "mockery/mockery": "^1.4.2",
+    },
+        "preferred-install": "dist",
+        "laravel": {
+    "autoload": {
             "Database\\Seeders\\": "database/seeders/"
         }
     },
