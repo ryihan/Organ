@@ -15,11 +15,17 @@
         "laravel/framework": "^8.12",
         "laravel/tinker": "^2.5"
     },
+        "facade/ignition": "^2.5",
         "mockery/mockery": "^1.4.2",
+        "nunomaduro/collision": "^5.0",
     },
+        "optimize-autoloader": true,
         "preferred-install": "dist",
+    },
         "laravel": {
+    },
     "autoload": {
+            "App\\": "app/",
             "Database\\Seeders\\": "database/seeders/"
         }
     },
